@@ -1,14 +1,10 @@
 scripts:
   linux_setup:
     - python3 -m venv .venv
-    - pip install -r requirements.txt
-    - source .venv/bin/activate
-    - langgraph dev
+    - bash -c "source .venv/bin/activate && pip install -r requirements.txt && langgraph dev"
 
   windows_setup:
     - python3 -m venv .venv
-    - pip install -r requirements.txt
-    - v.env\Scripts\Activate.ps1
-    - langgraph dev
+    - bash -c ".venv\Scripts\Activate.ps1 && pip install -r requirements.txt && langgraph dev"
   run:
     - langgraph dev
