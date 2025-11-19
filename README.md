@@ -8,7 +8,7 @@ Furthermore, it documents the constraints and limitations associated with operat
 
 To configure and deploy the UI, follow the steps outlined below:
 
-1. Navigate to the LangSmith platform (https://docs.langchain.com/langsmith/create-account-api-key_gl). Create a new project and generate an API key. Ensure authentication is performed within the EU region.
+1. Navigate to the LangSmith platform (https://docs.langchain.com/langsmith/create-account-api-key). Create a new project and generate an API key. Ensure authentication is performed within the EU region.
 
 2. Configure the `.env` file according to the specifications provided in `.env.sample`. Retain the default values for `LANGSMITH_TRACING_V2` and `LANGSMITH_ENDPOINT` as defined in the sample configuration.
 
